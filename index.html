@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+</style>
+</head>
+<body>
+
+  <center><p><h2>A table</h2></p></center>
+
+<table style="width:100%">
+  <tr>
+    <th>Name</th>
+    <th>Surname</th> 
+    <th>Mobile</th>
+    <th>Email</th>
+  </tr>
+  <tr>
+    <td>Mike</td>
+    <td>Smith</td>
+    <td>+123</td>
+    <td>mike@mike.com</td>
+  </tr>
+  <tr>
+    <td>John</td>
+    <td>Johnathan</td>
+    <td>+321</td>
+    <td>john@gmail.com</td>
+  </tr>
+  <tr>
+    <td>Jake</td>
+    <td>Boo</td>
+    <td>+380</td>
+    <td>jake@hello.net</td>
+  </tr>
+</table> 
+<br>
+<form action="/action_page.php">
+  <!--<label for="name">Name</label><br>-->
+  <input type="text" id="name" placeholder="Name"><br>
+  <!--<label for="surname">Surname</label><br>-->
+  <input type="text" id="surname" placeholder="Surname"><br>
+</form>
+    <br>
+    <h2>What is your sex?</h2>
+    <input type="radio" id="male>"
+    <label for="male">Male</label><br>
+    <input type="radio" id="female>"
+    <label for="female" checked>Female</label><br>
+<br>
+
+<form action="/action_page.php">
+  <textarea name="text" rows="10" cols="30" placeholder="Enter your question here"></textarea>
+  <br><br>
+</form>
+<br>
+
+<form action="/action_page.php">
+  <select name="city" id="city">
+  <option value="disabled after a choice" selected disabled>Select a city</option>
+  <option value="Lviv">Lviv</option>
+  <option value="Ternopil">Ternopil</option>
+  <option value="Odessa">Odessa</option>
+</select>
+</form>
+<br>
+Choose a language
+<br>
+<form action="/action_page.php">
+<input type="checkbox" id="lang1" name="lang1" value="Ukrainian">
+<label for="lang1">Ukrainian</label><br>
+<input type="checkbox" id="lang2" name="lang2" value="English">
+<label for="lang2">English</label><br>
+<input type="checkbox" id="lang3" name="lang3" value="Deutsch">
+<label for="lang3">Deutsch</label><br>
+</form>
+<br>
+<form action="/action_page.php">
+<input type="submit" value="Submit">
+</form>
+</body>
+</html>
